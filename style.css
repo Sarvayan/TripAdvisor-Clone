@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
+
+.nav input {
+    display: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.nav__img {
+  background-color: green;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.nav__img img {
+  width: 35px;
+  height: 35px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 250px;
+  gap: 25px;
+}
+
+.nav__signin {
+  display: flex;
+  margin-left: 150px;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav__signin button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header ul {
+  margin-top: 25px;
+  gap: 5%;
+}
+
+.header h1 {
+  margin-top: 10px;
+}
+
+h1, ul {
+  text-align: center;
+}
+
+.header__search {
+  border: grey solid 2px;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  padding: 10px;
+  border-radius: 25px;
+  display: flex;
+}
+
+.header__search input {
+  border: none;
+}
+
+.header__search button {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px;
+  margin-left: 60%;
+  border: none;
+  border-radius: 25px;
+  position: relative;
+  
+}
+
+.image {
+  background-color: palevioletred;
+  border: palevioletred solid 2px;
+  margin-top: 25px;
+  width: 75%;
+  height: 60%;
+  position: relative;
+  margin-left: 5%;
+}
+
+.image img {
+  width: 75%;
+  height: 60%;
+}
+
+.image__paragraph {
+  width: 30%;
+  position: relative;
+  
+  left: 50px;
+  font-size: 24px;
+}
+
+.image__line {
+  display: flex;
+  font-size: 10px;
+}
+
+.image__line button {
+  height: fit-content;
+}
+
+p {
+  padding: 10px;
+}
+
+.ai {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+
+.choice {
+  margin-top: 25px;
+}
+
+.choice__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.choice__imagesection {
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.choice__imagesection--description {
+  position: absolute;
+  top: 270px;
+}
+
+.choice__imagesection--description h2 {
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.recommended {
+    margin-top: 25px;
+}
+
+.recommended__section {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+} 
+
+.recommended__imagesection img {
+    width: 220px;
+}
+
+.recommended__imagesection {
+  padding: 25px;
+    width: 220px;
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.image__heart img{
+   width: 25px;
+   position:absolute;
+   top: 35px;
+   left: 215px;
+   
+}
+
+.family {
+   
+    border: none;
+    margin-top: 25px;
+    width: 75%;
+    height: 100%;
+    position: relative;
+    margin-left: 5%;
+  }
+  
+  .family img {
+    width: 75%;
+    height: 100%;
+  }
+  
+  .family__paragraph {
+    width: 250px;
+    height: 75%;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-size: 24px;
+  }
+
+   p {
+    padding: 2%;
+  }
+  
+  .family__button {
+    background-color: white;
+    color: black;
+    padding: 2%;
+    border: none;
+    border-radius: 25px;
+  }
+
+.video__section{
+   text-align: center;
+}
+
+.video__section iframe {
+  width: 25%;
+}
+
+.sponsor {
+    background-color: pink;
+    display:flex ;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.sponsor img {
+  width: 50%;
+}
+
+.sponsor__description {
+    align-items: center;
+}
+
+.sponsor__description button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+.home {
+    display: flex;
+    margin-top: 25px;
+}
+
+.home__image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.home__description {
+    padding: 10px;
+}
+
+.home__image--section{
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+.home__image--section img {
+    width: 220px;
+    height: 220px;
+}
+
+.award {
+    width: fit-content;
+    position: relative;
+}
+
+.award img {
+    width: 100%;
+    height: 50%;
+}
+
+.award__icon {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    background-color: transparent;
+}
+
+.award__icon img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.award__description {
+    position: absolute;
+    top: 1%;
+    left: 100px;
+}
+
+.award__description button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+.trending {
+    margin-top: 25px;
+}
+
+.trending__section {
+    display: flex;
+    margin-top: 25px;
+    gap: 10%;
+}
+
+.trending__section--one {
+    border-bottom: black solid 2px;
+}
+
+.trending__sectiondescription {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.footer {
+    background-color: pink;
+}
+
+.footer__section {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one__img {
+    background-color: green;
+    padding: 5px;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.one__img img {
+    width: 35px;
+    height: 35px;
+}
+
+.one a {
+    gap: 10%;
+    border-bottom: black solid 2px;
+}
+
+.footer__section--description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one {
+     width: 750px;
+}
+
+.two__image {
+    display: flex;
+}
+
+.two__image img {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+
+.footer__one {
+  font-size: large;
+  padding: 5%;
+}
+
+@media screen and (max-width:600px){
+  .choice__imagesection {
+    flex-grow: 1;
+    flex-basis: 40%;
+  }
+
+  .home, .home__image {
+    display: block;
+  }
+
+  .video__section {
+    text-align: left;
+  }
+
+  .family__paragraph {
+    font-size: xx-small;
+  }
+
+  .video__section{
+    text-align: left;
+ }
+
+}
+
+  @media screen and (max-width:900px){
+  .sponsor {
+    display: block;
+  }
+
+  .header ul {
+    display: block;
+  }
+
+  .trending__sectiondescription {
+    display: block;
+  }
+
+  .footer__section {
+    display: block;
+  }
+
+
+  }
+  
+  @media screen and (max-width:1200px){
+    .header__search {
+      display: block;
+    }
+
+    .nav {
+      display: block;
+    }
+    
+    .nav ul {
+      margin-left: 0;
+    }
+
+    .nav__signin {
+      margin-left: 0;
+    }
+
+    .family__paragraph{
+      font-size: small;
+    }
+
+    .award__description {
+      font-size: small;
+    }
+  }
+
+
