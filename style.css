@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+h2 {
+  margin-left: 5%;
+}
+
 .nav {
   display: flex;
   padding: 10px;
@@ -335,6 +339,7 @@ p {
     display: flex;
     margin-top: 25px;
     gap: 10%;
+    margin-left: 5%;
 }
 
 .trending__section--one {
@@ -379,6 +384,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5%;
 }
 
 .one {
