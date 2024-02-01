@@ -4,7 +4,7 @@
 }
 
 h2 {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 .nav {
@@ -45,8 +45,12 @@ ul {
 .nav__signin {
   display: flex;
   margin-left: 150px;
-  gap: 25px;
+  gap: 50px;
   align-items: center;
+}
+
+.nav__signin--para {
+  display: flex;
 }
 
 .nav__signin button {
@@ -54,15 +58,18 @@ ul {
   color: white;
   padding: 10px;
   border-radius: 25px;
+  width: 75%;
 }
 
 .header {
   text-align: center;
+  padding: 2%;
 }
 
 .header ul {
   margin-top: 25px;
   gap: 5%;
+  margin-left: 30%;
 }
 
 .header h1 {
@@ -156,7 +163,7 @@ p {
 .choice__imagesection {
   position: relative;
   flex-grow: 1;
-  flex-basis: 20%;
+  flex-basis: 25%;
 }
 
 .choice__imagesection--description {
@@ -298,6 +305,8 @@ p {
 .award {
     width: fit-content;
     position: relative;
+    margin-top: 50px;
+   
 }
 
 .award img {
@@ -444,6 +453,10 @@ p {
   }
 
   .footer__section {
+    display: block;
+  }
+
+  .footer__section--description {
     display: block;
   }
 
