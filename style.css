@@ -17,6 +17,10 @@ h2 {
   z-index: 1;
 }
 
+.nav__img, .nav h2, .nav ul, .nav__signin--para, .nav__signin button {
+  padding: 2%;
+}
+
 .nav input {
     display: none;
     padding: 10px;
@@ -58,7 +62,7 @@ ul {
   color: white;
   padding: 10px;
   border-radius: 25px;
-  width: 75%;
+  width: 75px;
 }
 
 .header {
@@ -88,20 +92,24 @@ h1, ul {
   padding: 10px;
   border-radius: 25px;
   display: flex;
+  justify-content: space-between;
 }
 
 .header__search input {
   border: none;
 }
 
+.header__search input::placeholder {
+  text-align: left;
+}
+
 .header__search button {
   background-color: greenyellow;
   color: black;
   padding: 10px;
-  margin-left: 60%;
+ 
   border: none;
   border-radius: 25px;
-  position: relative;
   
 }
 
@@ -460,16 +468,20 @@ p {
     display: block;
   }
 
+  .header__search {
+    display: flex;
+    align-items: center;
+  }
+
 
   }
   
   @media screen and (max-width:1200px){
-    .header__search {
-      display: block;
-    }
+    
 
     .nav {
       display: block;
+      padding: 2%;
     }
     
     .nav ul {
