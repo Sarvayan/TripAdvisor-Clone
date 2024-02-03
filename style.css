@@ -1,6 +1,8 @@
+
 * {
   margin: 0;
   padding: 0;
+  word-wrap:break-word;
 }
 
 h2 {
@@ -448,6 +450,7 @@ p {
 }
 
   @media screen and (max-width:900px){
+
   .sponsor {
     display: block;
   }
@@ -466,6 +469,13 @@ p {
 
   .footer__section--description {
     display: block;
+  }
+
+  .one {
+    
+    max-width: fit-content;
+    max-height: 100%;
+    word-wrap: break-word;
   }
 
   .header__search {
